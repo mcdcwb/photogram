@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Photogram</title>
+</head>
+<body>
+    <button id="color-mode-btn">
+        <img id="theme-icon" src="/insta/assets/btn-to-dark.png" alt="Alternar Tema">
+    </button>
+
+    <div id="wrapper">
+
+        <div id="container">
+
+            <div class="column left">
+                <div class="main"></div>
+            </div>
+
+            <div class="column right">
+                <div class="login-panel">
+                    <div class="logo" id="logo">
+                        <img class="logo-img" id="logo-img-light" src="./insta/assets/logo.png" alt="Logo Photogram">
+                        <img class="logo-img" id="logo-img-dark" src="./insta/assets/logo-dark-mode.png" alt="Logo Photogram">
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Telefone, usuário ou e-mail" name="username"/>
+                        <input type="password" placeholder="Senha" name="password"/>
+
+                        <input type="submit" value="Entrar"/>
+                    </form>
+                </div>
+
+                <div class="infobox">
+                    <p>Não possui uma conta? <a href="signup.html">Cadastre-se</a></p>
+                </div>
+
+                <div class="get-app-panel">
+                    <p>Obtenha o aplicativo.</p>
+                    <div class="app-buttons">
+                        <a href="#">
+                            <img src="insta/assets/appstore.png" alt="Baixe na App Store">
+                        </a>
+                        <a href="#">
+                            <img src="insta/assets/googleplay.png" alt="Baixe na Google Play Store">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="footer-inner">
+                <a href="#">About us</a>
+                <a href="#">Support</a>
+                <a href="#">Blog</a>
+                <a href="#">Press</a>
+                <a href="#">API</a>
+                <a href="#">Jobs</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Directory</a>
+                <a href="#">Profiles</a>
+                <a href="#">Hashtags</a>
+                <a href="#">Language</a>
+                <div class="text-small">@ 2025 Photogram</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
